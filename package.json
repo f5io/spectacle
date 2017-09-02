@@ -18,7 +18,7 @@
     "deploy": "npm run build:dist && surge -p .",
     "start": "node server.js",
     "test": "jest --verbose",
-    "postinstall": "npm run build:publish"
+    "postinstall": "npm run clean && npm run build:lib"
   },
   "author": "",
   "license": "MIT",
