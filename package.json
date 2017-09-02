@@ -17,7 +17,8 @@
     "lint": "eslint src *.js",
     "deploy": "npm run build:dist && surge -p .",
     "start": "node server.js",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "postinstall": "npm run version"
   },
   "author": "",
   "license": "MIT",
